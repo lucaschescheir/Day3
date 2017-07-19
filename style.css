@@ -1,0 +1,115 @@
+html {
+  background-image: url("img/bg.jpg");
+  padding: 5px 100px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  border: 2px solid #ffd24a;
+}
+
+section {
+  padding: 20px;
+}
+* {
+  font-family:Helvetica, Arial, sans-serif;
+  line-height:- 1.6
+}
+#site_header {
+  background: #ff8523;
+  height: 150px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+#logo {
+  margin-top: 15px;
+  padding-top: 20px;
+}
+.main_navigation {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.main_navigation a {
+  color: white;
+  background#ff8523;
+  border: 1px solid white;
+  padding:10px 35px;
+  text-transform: bold;
+  text-decoration: none;
+  font-size:20px;
+  border-radius: 5%;
+  margin-left: 0px;
+}
+h2 {
+  color: #1fabe5;
+}
+h3 {
+  color: #1fabe5;
+}
+a {
+  text-decoration: none;
+  color: #1fabe5;
+}
+li {
+  font-weight: bold;
+  margin: 10px;
+}
+section {
+  border-bottom: 5px solid lightgrey;
+  margin-left: 20px;
+}
+table {
+  border:1px solid #1fabe5;
+}
+thead {
+  background:#1fabe5;
+  color: white;
+}
+section>table>thead>tr {
+  height: 50px;
+  background: #1fabe5;
+
+}
+section h2 p {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.name {
+  background-color: #ff8523;
+  height: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 1.5em;
+}
+input {
+  height: 30px;
+}
+label {
+  margin-left: 20px;
+}
+form {
+  background: #dddddd;
+  height: 400px;
+  border-radius: 6px;
+}
+form >.name>label {
+  margin: 20px;
+}
+form>.name {
+  margin: 20px;
+}
+.city_container {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+}
+font info : family - Helvetica, Arial, sans-serif line-height - 1.6 colors : light gray - ##eee gray - #dddddd yellow - #ffd24a orange - #ff8523 blue - #1fabe5 dark blue - #046c97 */
