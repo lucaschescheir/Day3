@@ -1,6 +1,6 @@
 html {
   background-image: url("img/bg.jpg");
-  padding: 5px 100px;
+  padding: 2px 100px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -89,11 +89,15 @@ section h2 p {
   color: white;
   font-size: 1.5em;
 }
-input {
-  height: 30px;
+.name > input {
+  height: 40px;
+  width: 200px;
 }
 label {
   margin-left: 20px;
+}
+label.bio {
+  padding-bottom: 30px;
 }
 form {
   background: #dddddd;
@@ -110,6 +114,25 @@ form>.name {
   margin-bottom: 30px;
   margin-top: 30px;
 }
-
+div > input {
+  height: 40px;
+}
+.submit_container {
+  margin-left: 20px;
+  height: 20px;
+}
+#submit_button {
+  background: #046c97;
+  height: 40px;
+  width: 80px;
+  color: white;
+  margin-top: 10px;
+  border: none;
+}
+textarea {
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 1px solid #1fabe5;
+  width: 95%;
 }
 font info : family - Helvetica, Arial, sans-serif line-height - 1.6 colors : light gray - ##eee gray - #dddddd yellow - #ffd24a orange - #ff8523 blue - #1fabe5 dark blue - #046c97 */
