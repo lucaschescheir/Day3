@@ -1,6 +1,6 @@
 html {
   background-image: url("img/bg.jpg");
-  padding: 2px 100px;
+  padding: 2px 150px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -12,19 +12,23 @@ body {
 section {
   padding: 20px;
 }
-* {
+ {
   font-family:Helvetica, Arial, sans-serif;
-  line-height:- 1.6
+  line-height: 2;
 }
 #site_header {
   background: #ff8523;
-  height: 150px;
+  height: 160px;
   padding-top: 20px;
   padding-left: 30px;
 }
 #logo {
   margin-top: 15px;
   padding-top: 20px;
+}
+img {
+  margin-bottom: 15px;
+  height: 60px;
 }
 .main_navigation {
   margin-left: 0px;
@@ -43,9 +47,19 @@ section {
 }
 h2 {
   color: #1fabe5;
+  margin:20px 0px 30px;
+  font-size: 2em;
+}
+p {
+  line-height: 200%;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+
 }
 h3 {
   color: #1fabe5;
+  margin-bottom: 30px;
+  font-size: 2em;
 }
 a {
   text-decoration: none;
@@ -54,21 +68,33 @@ a {
 li {
   font-weight: bold;
   margin: 10px;
+  font-size: 1.2em;
 }
-section {
-  border-bottom: 5px solid lightgrey;
-  margin-left: 20px;
+
+section > h2 {
+  border-top: 5px solid lightgrey ;
+  padding-top: 30px;
+}
+section > h2 >p {
+  font-size: 1.2em;
 }
 table {
-  border:1px solid #1fabe5;
+   border-collapse: collapse;
+   width: 100%;
 }
-thead {
+table, td {
+    border: 1px solid #1fabe5;
+    padding:10px 20px;
+    font-size: 1em;
+}
+table > thead > tr > td {
   background:#1fabe5;
   color: white;
+  border: 1px solid #046c97;
 }
-section>table>thead>tr {
-  height: 50px;
-  background: #1fabe5;
+
+}
+
 
 }
 section h2 p {
